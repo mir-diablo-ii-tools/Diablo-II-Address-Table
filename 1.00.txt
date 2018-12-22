@@ -1,0 +1,9 @@
+Library	Name	Locator Type	Locator Value	Comments	
+D2Lang	ToUnicodeString	Offset	0x1118	?toUnicode@Unicode@@SIPAU1@PAU1@PBDH@Z	Unicode::toUnicode
+D2Lang	UnicodeChar_Compare	Offset	0x1019	?compare@Unicode@@SIHU1@0@Z	Unicode::compare
+D2Lang	UnicodeChar_Copy	Offset	0x1136	??4Unicode@@QAEAAU0@ABU0@@Z	Unicode::operator=
+D2Lang	UnicodeChar_CreateWithNoArgs	Offset	0x10CD	??_FUnicode@@QAEXXZ	Unicode::`default constructor closure’
+D2Lang	UnicodeChar_CreateWithValue	Offset	0x113B	??0Unicode@@QAE@G@Z	Unicode::Unicode
+D2Lang	UnicodeChar_ToLower	Offset	0x1014	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
+D2Lang	UnicodeString_CompareIgnoreCase	Offset	0x100A	?stricmp@Unicode@@SIHPBU1@0@Z	Unicode::stricmp
+D2Lang	UnicodeString_FindChar	Offset	0x101E	?strchr@Unicode@@SIPAU1@PBU1@U1@@Z	Unicode::strchr
