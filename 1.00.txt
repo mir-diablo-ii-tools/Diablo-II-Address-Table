@@ -7,6 +7,7 @@ D2Lang	UnicodeChar_CreateWithNoArgs	Offset	0x10CD	??_FUnicode@@QAEXXZ	Unicode::`
 D2Lang	UnicodeChar_CreateWithValue	Offset	0x113B	??0Unicode@@QAE@G@Z	Unicode::Unicode
 D2Lang	UnicodeChar_IsAlpha	Offset	0x103C	?isAlpha@Unicode@@QBEHXZ	Unicode::isAlpha
 D2Lang	UnicodeChar_IsNewLine	Offset	0x1073	?isNewline@Unicode@@QBEHXZ	Unicode::isNewline
+D2Lang	UnicodeChar_IsPipe	Offset	0x1087	?isPipe@Unicode@@QBEHXZ	Unicode::isPipe
 D2Lang	UnicodeChar_IsWhitespace	Offset	0x1032	?isWhitespace@Unicode@@QBEHXZ	Unicode::isWhitespace
 D2Lang	UnicodeChar_ToLower	Offset	0x1014	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
 D2Lang	UnicodeString_Compare	Offset	0x1050	?strcmp@Unicode@@SIHPBU1@0@Z	Unicode::strcmp
