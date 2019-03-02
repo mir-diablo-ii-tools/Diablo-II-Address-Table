@@ -1,0 +1,4 @@
+Library	Name	Locator Type	Locator Value	Comments
+D2Client	ScreenXShift	Ordinal	0x11C418	
+D2Lang	CreateD2UnicodeChar	Ordinal	10000	
+D2Lang	CreateD2UnicodeCharWithValue	Ordinal		
