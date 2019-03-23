@@ -1,21 +1,22 @@
 Library	Name	Locator Type	Locator Value	Comments	
-D2Client	ScreenXShift	Ordinal	0x1348AC		
-D2Lang	GetLocaleText	Ordinal	10004		
-D2Lang	ToUnicodeString	Offset	0x1118	?toUnicode@Unicode@@SIPAU1@PAU1@PBDH@Z	Unicode::toUnicode
-D2Lang	ConvertUnicodeToWin				
-D2Lang	UnicodeChar_Compare	Offset	0x1019	?compare@Unicode@@SIHU1@0@Z	Unicode::compare
-D2Lang	UnicodeChar_Copy	Offset	0x1136	??4Unicode@@QAEAAU0@ABU0@@Z	Unicode::operator=
-D2Lang	UnicodeChar_CreateWithNoArgs	Offset	0x10CD	??_FUnicode@@QAEXXZ	Unicode::`default constructor closure'
-D2Lang	UnicodeChar_CreateWithValue	Offset	0x113B	??0Unicode@@QAE@G@Z	Unicode::Unicode
-D2Lang	UnicodeChar_IsAlpha	Offset	0x103C	?isAlpha@Unicode@@QBEHXZ	Unicode::isAlpha
-D2Lang	UnicodeChar_IsNewLine	Offset	0x1073	?isNewline@Unicode@@QBEHXZ	Unicode::isNewline
-D2Lang	UnicodeChar_IsPipe	Offset	0x1087	?isPipe@Unicode@@QBEHXZ	Unicode::isPipe
-D2Lang	UnicodeChar_IsWhitespace	Offset	0x1032	?isWhitespace@Unicode@@QBEHXZ	Unicode::isWhitespace
-D2Lang	UnicodeChar_ToLower	Offset	0x1014	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
-D2Lang	UnicodeString_Compare	Offset	0x1050	?strcmp@Unicode@@SIHPBU1@0@Z	Unicode::strcmp
-D2Lang	UnicodeString_CompareIgnoreCase	Offset	0x100A	?stricmp@Unicode@@SIHPBU1@0@Z	Unicode::stricmp
-D2Lang	UnicodeString_FindChar	Offset	0x101E	?strchr@Unicode@@SIPAU1@PBU1@U1@@Z	Unicode::strchr
-D2Lang	UnicodeString_Format	Offset	0x1046	?sprintf@Unicode@@SAXHPAU1@PBU1@ZZ	Unicode::sprintf
-D2Lang	UnicodeString_GetLength	Offset	0x1055	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
-D2Lang	UnicodeString_NCompareIgnoreCase	Offset	0x1091	?strnicmp@Unicode@@SIHPBU1@0I@Z	Unicode::strnicmp
-D2Lang	UnloadSysMap	Offset	0x104B	?unloadSysMap@Unicode@@SIXXZ	Unicode::unloadSysMap
+D2Client.dll	DifficultyLevel	Offset	0x12EDDC	nDifficultyLevel	
+D2Client.dll	ScreenXShift	Ordinal	0x1348AC		
+D2Lang.dll	GetLocaleText	Ordinal	10004		
+D2Lang.dll	ToUnicodeString	Offset	0x1118	?toUnicode@Unicode@@SIPAU1@PAU1@PBDH@Z	Unicode::toUnicode
+D2Lang.dll	ConvertUnicodeToWin				
+D2Lang.dll	UnicodeChar_Compare	Offset	0x1019	?compare@Unicode@@SIHU1@0@Z	Unicode::compare
+D2Lang.dll	UnicodeChar_Copy	Offset	0x1136	??4Unicode@@QAEAAU0@ABU0@@Z	Unicode::operator=
+D2Lang.dll	UnicodeChar_CreateWithNoArgs	Offset	0x10CD	??_FUnicode@@QAEXXZ	Unicode::`default constructor closure'
+D2Lang.dll	UnicodeChar_CreateWithValue	Offset	0x113B	??0Unicode@@QAE@G@Z	Unicode::Unicode
+D2Lang.dll	UnicodeChar_IsAlpha	Offset	0x103C	?isAlpha@Unicode@@QBEHXZ	Unicode::isAlpha
+D2Lang.dll	UnicodeChar_IsNewLine	Offset	0x1073	?isNewline@Unicode@@QBEHXZ	Unicode::isNewline
+D2Lang.dll	UnicodeChar_IsPipe	Offset	0x1087	?isPipe@Unicode@@QBEHXZ	Unicode::isPipe
+D2Lang.dll	UnicodeChar_IsWhitespace	Offset	0x1032	?isWhitespace@Unicode@@QBEHXZ	Unicode::isWhitespace
+D2Lang.dll	UnicodeChar_ToLower	Offset	0x1014	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
+D2Lang.dll	UnicodeString_Compare	Offset	0x1050	?strcmp@Unicode@@SIHPBU1@0@Z	Unicode::strcmp
+D2Lang.dll	UnicodeString_CompareIgnoreCase	Offset	0x100A	?stricmp@Unicode@@SIHPBU1@0@Z	Unicode::stricmp
+D2Lang.dll	UnicodeString_FindChar	Offset	0x101E	?strchr@Unicode@@SIPAU1@PBU1@U1@@Z	Unicode::strchr
+D2Lang.dll	UnicodeString_Format	Offset	0x1046	?sprintf@Unicode@@SAXHPAU1@PBU1@ZZ	Unicode::sprintf
+D2Lang.dll	UnicodeString_GetLength	Offset	0x1055	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
+D2Lang.dll	UnicodeString_NCompareIgnoreCase	Offset	0x1091	?strnicmp@Unicode@@SIHPBU1@0I@Z	Unicode::strnicmp
+D2Lang.dll	UnloadSysMap	Offset	0x104B	?unloadSysMap@Unicode@@SIXXZ	Unicode::unloadSysMap

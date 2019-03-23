@@ -1,0 +1,2 @@
+Library	Name	Locator Type	Locator Value	Comments
+D2Client.dll	DifficultyLevel	Offset	0x397694	nDifficultyLevel

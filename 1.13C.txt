@@ -1,4 +1,5 @@
 Library	Name	Locator Type	Locator Value	Comments
-D2Client	ScreenXShift	Ordinal	0x11C418	
-D2Lang	CreateD2UnicodeChar	Ordinal	10000	
-D2Lang	CreateD2UnicodeCharWithValue	Ordinal		
+D2Client.dll	DifficultyLevel	Offset	0x11C390	nDifficultyLevel
+D2Client.dll	ScreenXShift	Ordinal	0x11C418	
+D2Lang.dll	CreateD2UnicodeChar	Ordinal	10000	
+D2Lang.dll	CreateD2UnicodeCharWithValue	Ordinal		
