@@ -31,10 +31,10 @@ All contributions can be made using Pull Requests. The goal of using Pull Reques
 - What is the name of the address? This should be answered by the title of the Pull Request.
 - Where can the address be found? This should be answered by the changes.
 - What is the type of the data? This should be answered using standard C types and Diablo II structs. Do not use any Windows types unless there is an appropriate justification.
-- If the changes are missing for certain Diablo II versions, why they are missing?
+- If the changes are missing for certain Diablo II versions, why are they missing?
 - If the address points to data:
   - What are the possible values?
-  - What are some ingame ways to change this value? If you cannot answer this question, then how will changing this value the behavior of the game?
+  - What are some ingame ways to change this value? If you cannot answer this question, then how will changing this value affect the behavior of the game?
 - If the address points to a function:
   - What are the inputs, the output, and their types? This should be answered using standard C types and Diablo II structs. Do not use any Windows types unless there is an appropriate justification.
   - What is the calling convention? You must enumerate the calling conventions for every version.
