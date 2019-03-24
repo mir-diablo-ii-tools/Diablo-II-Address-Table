@@ -4,3 +4,5 @@ D2Client.dll	ScreenXShift	Offset	0x11C418
 D2GFX.dll	ResolutionMode	Offset	0x11260	"0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700"
 D2Lang.dll	CreateD2UnicodeChar	Ordinal	10000	
 D2Lang.dll	CreateD2UnicodeCharWithValue	Ordinal		
+D2Win.dll	MainMenuMousePositionX	Offset	0x21488	
+D2Win.dll	MainMenuMousePositionY	Offset	0x2148C	
