@@ -1,2 +1,3 @@
 Library	Name	Locator Type	Locator Value	Comments
 D2Client.dll	DifficultyLevel	Offset	0x12EAC4	nDifficultyLevel
+D2GFX.dll	ResolutionMode	Offset	0x2A990	"0 = 640x480, 1 = Main Menu 800x600"
