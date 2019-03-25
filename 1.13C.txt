@@ -1,5 +1,7 @@
 Library	Name	Locator Type	Locator Value	Comments
 D2Client.dll	DifficultyLevel	Offset	0x11C390	nDifficultyLevel
+D2Client.dll	IngameMousePositionX	Offset	0x11B828	
+D2Client.dll	IngameMousePositionY	Offset	0x11B824	
 D2Client.dll	ScreenXShift	Offset	0x11C418	
 D2GFX.dll	ResolutionMode	Offset	0x11260	"0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700"
 D2Lang.dll	CreateD2UnicodeChar	Ordinal	10000	
