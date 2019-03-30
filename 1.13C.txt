@@ -5,6 +5,7 @@ D2Client.dll	IngameMousePositionY	Offset	0x11B824
 D2Client.dll	IsGameMenuOpen	Offset	0xFADA4	
 D2Client.dll	IsHelpScreenOpen	Offset	0xFAE04	
 D2Client.dll	ScreenXShift	Offset	0x11C418	
+D2Client.dll	IsNewSkillButtonPressed	Offset	0x11C30C	
 D2GFX.dll	ResolutionMode	Offset	0x11260	"0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700"
 D2Lang.dll	CreateD2UnicodeChar	Ordinal	10000	
 D2Lang.dll	CreateD2UnicodeCharWithValue	Ordinal		
