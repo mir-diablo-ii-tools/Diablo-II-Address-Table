@@ -6,6 +6,7 @@ D2Client.dll	IsAutomapOpen	Offset	0x143664
 D2Client.dll	IsGameMenuOpen	Offset	0x143660		
 D2Client.dll	IsHelpScreenOpen	Offset	0x1436C0		
 D2Client.dll	IsNewSkillButtonPressed	Offset	0x13DDF8		
+D2Client.dll	IsNewStatsButtonPressed	Offset	0x13DDF4		
 D2Client.dll	ScreenXShift	Ordinal	0x1348AC		
 D2GFX.dll	ResolutionMode	Offset	0x2A950	"0 = 640x480, 1 = Main Menu 800x600"	
 D2Lang.dll	GetLocaleText	Ordinal	10004		
