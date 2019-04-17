@@ -6,6 +6,7 @@ D2Client.dll	IsAutomapOpen	Offset	0xF4D9C
 D2Client.dll	IsGameMenuOpen	Offset	0xF4D98	
 D2Client.dll	IsHelpScreenOpen	Offset	0xF4DF8	
 D2Client.dll	IsNewSkillButtonPressed	Offset	0xF01F8	
+D2Client.dll	IsNewStatsButtonPressed	Offset	0xF01F4	
 D2GFX.dll	ResolutionMode	Offset	0x1D060	"0 = 640x480, 1 = Main Menu 800x600"
 D2Win.dll	MainMenuMousePositionX	Offset	0x5BCB8	
 D2Win.dll	MainMenuMousePositionY	Offset	0x5BCBC	
