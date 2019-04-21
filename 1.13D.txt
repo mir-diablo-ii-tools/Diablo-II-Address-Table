@@ -1,12 +1,13 @@
-Library	Name	Locator Type	Locator Value	Comments
-D2Client.dll	DifficultyLevel	Offset	0x11D1D8	nDifficultyLevel
-D2Client.dll	IngameMousePositionX	Offset	0x11C950	
-D2Client.dll	IngameMousePositionY	Offset	0x11C94C	
-D2Client.dll	IsAutomapOpen	Offset	0x11C8B8	
-D2Client.dll	IsGameMenuOpen	Offset	0x11C8B4	
-D2Client.dll	IsHelpScreenOpen	Offset	0x11C914	
-D2Client.dll	IsNewSkillButtonPressed	Offset	0x11D31C	
-D2Client.dll	IsNewStatsButtonPressed	Offset	0x11D318	
-D2GFX.dll	ResolutionMode	Offset	0x14A40	"0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700"
-D2Win.dll	MainMenuMousePositionX	Offset	0x8DB1C	
-D2Win.dll	MainMenuMousePositionY	Offset	0x8DB20	
+Library	Name	Locator Type	Locator Value	Comments	
+D2Client.dll	DifficultyLevel	Offset	0x11D1D8	nDifficultyLevel	
+D2Client.dll	IngameMousePositionX	Offset	0x11C950		
+D2Client.dll	IngameMousePositionY	Offset	0x11C94C		
+D2Client.dll	IsAutomapOpen	Offset	0x11C8B8		
+D2Client.dll	IsGameMenuOpen	Offset	0x11C8B4		
+D2Client.dll	IsHelpScreenOpen	Offset	0x11C914		
+D2Client.dll	IsNewSkillButtonPressed	Offset	0x11D31C		
+D2Client.dll	IsNewStatsButtonPressed	Offset	0x11D318		
+D2GFX.dll	ResolutionMode	Offset	0x14A40	"0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700"	
+D2Lang.dll	Unicode_strlen	Offset	0x8C60	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
+D2Win.dll	MainMenuMousePositionX	Offset	0x8DB1C		
+D2Win.dll	MainMenuMousePositionY	Offset	0x8DB20		
