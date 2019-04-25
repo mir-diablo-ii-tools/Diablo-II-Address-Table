@@ -25,6 +25,7 @@ D2Lang.dll	UnicodeString_Compare	Offset	0x1050	?strcmp@Unicode@@SIHPBU1@0@Z	Unic
 D2Lang.dll	UnicodeString_CompareIgnoreCase	Offset	0x100A	?stricmp@Unicode@@SIHPBU1@0@Z	Unicode::stricmp
 D2Lang.dll	UnicodeString_FindChar	Offset	0x101E	?strchr@Unicode@@SIPAU1@PBU1@U1@@Z	Unicode::strchr
 D2Lang.dll	UnicodeString_Format	Offset	0x1046	?sprintf@Unicode@@SAXHPAU1@PBU1@ZZ	Unicode::sprintf
+D2Lang.dll	Unicode_strcat	Offset	0x10B4		Unicode::strcat
 D2Lang.dll	Unicode_strlen	Offset	0x1055	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
 D2Lang.dll	UnicodeString_NCompareIgnoreCase	Offset	0x1091	?strnicmp@Unicode@@SIHPBU1@0I@Z	Unicode::strnicmp
 D2Lang.dll	UnloadSysMap	Offset	0x104B	?unloadSysMap@Unicode@@SIXXZ	Unicode::unloadSysMap
