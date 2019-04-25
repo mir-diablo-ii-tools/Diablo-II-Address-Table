@@ -13,5 +13,6 @@ D2Lang.dll	CreateD2UnicodeChar	Ordinal	10000
 D2Lang.dll	CreateD2UnicodeCharWithValue	Ordinal			
 D2Lang.dll	Unicode_strcat	Offset	0xAFE0		Unicode::strcat
 D2Lang.dll	Unicode_strlen	Offset	0xB0B0	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
+D2Lang.dll	Unicode_tolower	Offset	0x10C0	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
 D2Win.dll	MainMenuMousePositionX	Offset	0x21488		
 D2Win.dll	MainMenuMousePositionY	Offset	0x2148C		
