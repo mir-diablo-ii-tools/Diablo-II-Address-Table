@@ -11,5 +11,6 @@ D2GFX.dll	ResolutionMode	Offset	0x1D454	"0 = 640x480, 1 = Main Menu, 2 = 800x600
 D2Lang.dll	Unicode_strcat	Offset	0xA610		Unicode::strcat
 D2Lang.dll	Unicode_strlen	Offset	0xA6E0	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
 D2Lang.dll	Unicode_tolower	Offset	0x10C0	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
+D2Lang.dll	Unicode_toupper	Offset	0x10A0		Unicode::toUpper
 D2Win.dll	MainMenuMousePositionX	Offset	0x5C700		
 D2Win.dll	MainMenuMousePositionY	Offset	0x5C704		
