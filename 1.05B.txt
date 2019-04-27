@@ -8,6 +8,7 @@ D2Client.dll	IsHelpScreenOpen	Offset	0xF4DF8
 D2Client.dll	IsNewSkillButtonPressed	Offset	0xF01F8		
 D2Client.dll	IsNewStatsButtonPressed	Offset	0xF01F4		
 D2GFX.dll	ResolutionMode	Offset	0x1D060	"0 = 640x480, 1 = Main Menu 800x600"	
+D2Lang.dll	GetStringByIndex	Ordinal	10004		
 D2Lang.dll	Unicode_strcat	Offset	0x13A0		Unicode::strcat
 D2Lang.dll	Unicode_strlen	Offset	0x1490	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
 D2Lang.dll	Unicode_tolower	Offset	0x10E0	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
