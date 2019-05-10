@@ -7,6 +7,8 @@ D2Client.dll	IsGameMenuOpen	Offset	0x3A27E4
 D2Client.dll	IsHelpScreenOpen	Offset	0x3A2844		
 D2Client.dll	IsNewSkillButtonPressed	Offset	0x3C02E8		
 D2Client.dll	IsNewStatsButtonPressed	Offset	0x3C02E4		
+D2DDraw.dll	DisplayHeight	Offset	0x481254		
+D2DDraw.dll	DisplayWidth	Offset	0x481258		
 D2GFX.dll	ResolutionMode	Offset	0x3C8CB8	"0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700"	
 D2Lang.dll	GetStringByIndex	Offset	0x124A30		
 D2Lang.dll	Unicode_strcat	Offset	0x126700		Unicode::strcat
