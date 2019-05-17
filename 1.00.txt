@@ -39,3 +39,4 @@ D2Win.dll	LoadMPQ	Offset	0x1458A
 D2Win.dll	MainMenuMousePositionX	Offset	0x72A90		
 D2Win.dll	MainMenuMousePositionY	Offset	0x72A94		
 D2Win.dll	UnloadMPQ	Offset	0x14729		
+Fog.dll	AllocClientMemory	Ordinal	10033		
