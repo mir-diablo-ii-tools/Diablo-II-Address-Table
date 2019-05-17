@@ -24,3 +24,4 @@ D2Win.dll	UnloadMPQ	N/A	N/A
 Fog.dll	AllocClientMemory	Ordinal	10042		
 Fog.dll	FreeClientMemory	Ordinal	10043		
 Storm.dll	SFileCloseArchive	Ordinal	252		
+Storm.dll	SFileOpenArchive	Ordinal	266		
