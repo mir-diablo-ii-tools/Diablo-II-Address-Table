@@ -23,4 +23,4 @@ D2Lang.dll	Unicode_toupper	Offset	0x10A0		Unicode::toUpper
 D2Win.dll	LoadMPQ	Offset	0x7E60		
 D2Win.dll	MainMenuMousePositionX	Offset	0x21488		
 D2Win.dll	MainMenuMousePositionY	Offset	0x2148C		
-D2Win.dll	UnloadMPQ	Offset	0xA43B		
+D2Win.dll	UnloadMPQ	N/A	N/A		
