@@ -23,3 +23,4 @@ D2Win.dll	MainMenuMousePositionY	Offset	0x3D55A8
 D2Win.dll	UnloadMPQ	Offset	0x1173AC		
 Fog.dll	AllocClientMemory	Offset	0xB380		
 Fog.dll	FreeClientMemory	Offset	0xB3C0		
+Storm.dll	SFileCloseArchive	Offset	0x19A80		
