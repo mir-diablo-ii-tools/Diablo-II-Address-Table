@@ -25,3 +25,4 @@ D2Win.dll	MainMenuMousePositionX	Offset	0x21488
 D2Win.dll	MainMenuMousePositionY	Offset	0x2148C		
 D2Win.dll	UnloadMPQ	N/A	N/A		
 Fog.dll	AllocClientMemory	Ordinal	10042		
+Fog.dll	FreeClientMemory	Ordinal	10043		
