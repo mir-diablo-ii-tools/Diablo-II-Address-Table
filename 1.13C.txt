@@ -14,6 +14,8 @@ D2Direct3D.dll	DisplayHeight	Offset	0x1AFD4
 D2Direct3D.dll	DisplayWidth	Offset	0x1AB44		
 D2GDI.dll	BitBlockHeight	Offset	0xCA90		
 D2GDI.dll	BitBlockWidth	Offset	0xCA80		
+D2GDI.dll	CelDisplayLeft	Offset	0xCA98		
+D2GDI.dll	CelDisplayRight	Offset	0xCA9C		
 D2GFX.dll	ResolutionMode	Offset	0x11260	"0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700"	
 D2Lang.dll	CreateD2UnicodeChar	Ordinal	10000		
 D2Lang.dll	CreateD2UnicodeCharWithValue	Ordinal			
