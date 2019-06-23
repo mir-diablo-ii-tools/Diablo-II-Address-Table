@@ -7,6 +7,8 @@ D2Client.dll	IsGameMenuOpen	Offset	0x11A6CC
 D2Client.dll	IsHelpScreenOpen	Offset	0x11A72C		
 D2Client.dll	IsNewSkillButtonPressed	Offset	0x115BC0		
 D2Client.dll	IsNewStatsButtonPressed	Offset	0x115BBC		
+D2Client.dll	ScreenShiftX	Offset	0x11A748		
+D2Client.dll	ScreenShiftY	Offset	0x11A74C		
 D2DDraw.dll	DisplayHeight	Offset	0x117A8		
 D2DDraw.dll	DisplayWidth	Offset	0x117B0		
 D2Direct3D.dll	DisplayHeight	Offset	0x1A7AC		
