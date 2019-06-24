@@ -10,6 +10,7 @@ D2Client.dll	IsNewSkillButtonPressed	Offset	0x11C30C
 D2Client.dll	IsNewStatsButtonPressed	Offset	0x11C308		
 D2Client.dll	ScreenShiftX	Offset	0x11B9A0		
 D2Client.dll	ScreenShiftY	Offset	0x11B9A4		
+D2CMP.dll	CloseCelFile	Ordinal	10065		
 D2DDraw.dll	DisplayHeight	Offset	0x101CC		
 D2DDraw.dll	DisplayWidth	Offset	0x101D4		
 D2Direct3D.dll	DisplayHeight	Offset	0x1AFD4		
