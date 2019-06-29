@@ -1,5 +1,7 @@
 Library	Name	Locator Type	Locator Value	Comments	
 D2Client.dll	DifficultyLevel	Offset	0x3A060C	nDifficultyLevel	
+D2Client.dll	GeneralDisplayHeight	Offset	0x311470		
+D2Client.dll	GeneralDisplayWidth	Offset	0x31146C		
 D2Client.dll	IngameMousePositionX	Offset	0x3A6AB0		
 D2Client.dll	IngameMousePositionY	Offset	0x3A6AAC		
 D2Client.dll	IsAutomapOpen	Offset	0x3A27E8		
