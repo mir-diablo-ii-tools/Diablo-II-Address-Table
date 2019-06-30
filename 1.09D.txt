@@ -4,6 +4,7 @@ D2Client.dll	GeneralDisplayHeight	Offset	0xD40E0
 D2Client.dll	GeneralDisplayWidth	Offset	0xD40DC		
 D2Client.dll	IngameMousePositionX	Offset	0x12B168		
 D2Client.dll	IngameMousePositionY	Offset	0x12B16C		
+D2Client.dll	InventoryArrangeMode	Offset	0x103978		
 D2Client.dll	IsAutomapOpen	Offset	0x1248DC		
 D2Client.dll	IsGameMenuOpen	Offset	0x1248D8		
 D2Client.dll	IsHelpScreenOpen	Offset	0x124938		
