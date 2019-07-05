@@ -23,6 +23,7 @@ D2GDI.dll	BitBlockHeight	Offset	0x3C913C
 D2GDI.dll	BitBlockWidth	Offset	0x3C9138		
 D2GDI.dll	CelDisplayLeft	Offset	0x58A168		
 D2GDI.dll	CelDisplayRight	Offset	0x58A16C		
+D2GFX.dll	DrawCelContext	Offset	0xF6480		
 D2GFX.dll	ResolutionMode	Offset	0x3C8CB8	"0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700"	
 D2GFX.dll	VideoMode	Offset	0x3C8CB0	"1 = GDI, 2 = Software, 3 = DirectDraw, 4 = Glide, 5 = OpenGL, 6 = Direct3D, 7 = Rave"	
 D2Glide.dll	DisplayHeight	Offset	0x3C913C		
