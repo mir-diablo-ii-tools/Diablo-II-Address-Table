@@ -1,5 +1,6 @@
 Library	Name	Locator Type	Locator Value	Comments	
 D2Client.dll	DifficultyLevel	Offset	0x10795C	nDifficultyLevel	
+D2Client.dll	DrawCenteredText	Offset	0x2FCD0		
 D2Client.dll	ScreenOpenMode	Offset	0x10B9C4		
 D2Client.dll	GeneralDisplayHeight	Offset	0xD40F0		
 D2Client.dll	GeneralDisplayWidth	Offset	0xD40EC		
