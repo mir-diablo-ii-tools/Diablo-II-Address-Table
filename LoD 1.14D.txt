@@ -1,7 +1,6 @@
 Library	Name	Locator Type	Locator Value	Comments	
 D2Client.dll	DifficultyLevel	Offset	0x3A060C	nDifficultyLevel	
 D2Client.dll	DrawCenteredUnicodeText	Offset	0xA7080		
-D2Client.dll	ScreenOpenMode	Offset	0x3A5210		
 D2Client.dll	GeneralDisplayHeight	Offset	0x311470		
 D2Client.dll	GeneralDisplayWidth	Offset	0x31146C		
 D2Client.dll	GeneralPlayAreaCameraShiftX	Offset	0x3A5214		
@@ -13,6 +12,7 @@ D2Client.dll	IsGameMenuOpen	Offset	0x3A27E4
 D2Client.dll	IsHelpScreenOpen	Offset	0x3A2844		
 D2Client.dll	IsNewSkillButtonPressed	Offset	0x3C02E8		
 D2Client.dll	IsNewStatsButtonPressed	Offset	0x3C02E4		
+D2Client.dll	ScreenOpenMode	Offset	0x3A5210		
 D2Client.dll	ScreenShiftX	Offset	0x3A2858		
 D2Client.dll	ScreenShiftY	Offset	0x3A285C		
 D2CMP.dll	CloseCelFile	Offset	0x201A50		

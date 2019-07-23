@@ -1,7 +1,6 @@
 Library	Name	Locator Type	Locator Value	Comments	
 D2Client.dll	DifficultyLevel	Offset	0x12EDDC	nDifficultyLevel	
 D2Client.dll	DrawCenteredUnicodeText	Offset	0x10EB		
-D2Client.dll	ScreenOpenMode	N/A	N/A		
 D2Client.dll	GeneralDisplayHeight	Offset	0x1681A4		
 D2Client.dll	GeneralDisplayWidth	Offset	0x1681A8		
 D2Client.dll	GeneralPlayAreaCameraShiftX	Offset	0x1348AC		
@@ -13,6 +12,7 @@ D2Client.dll	IsGameMenuOpen	Offset	0x143660
 D2Client.dll	IsHelpScreenOpen	Offset	0x1436C0		
 D2Client.dll	IsNewSkillButtonPressed	Offset	0x13DDF8		
 D2Client.dll	IsNewStatsButtonPressed	Offset	0x13DDF4		
+D2Client.dll	ScreenOpenMode	N/A	N/A		
 D2Client.dll	ScreenShiftX	N/A	N/A		
 D2Client.dll	ScreenShiftY	N/A	N/A		
 D2CMP.dll	CloseCelFile	Ordinal	10032		
@@ -30,9 +30,14 @@ D2GFX.dll	ResolutionMode	Offset	0x2A950	"0 = 640x480, 1 = Main Menu 800x600"
 D2GFX.dll	VideoMode	Offset	0x2A948	"1 = GDI, 2 = Software, 3 = DirectDraw, 4 = Glide, 5 = OpenGL, 6 = Direct3D, 7 = Rave"	
 D2Glide.dll	DisplayHeight	Offset	0x1DE04		
 D2Glide.dll	DisplayWidth	Offset	0x1DD44		
-D2Lang.dll	GetLocaleText	Ordinal	10004		
-D2Lang.dll	ToUnicodeString	Offset	0x1118	?toUnicode@Unicode@@SIPAU1@PAU1@PBDH@Z	Unicode::toUnicode
 D2Lang.dll	ConvertUnicodeToWin				
+D2Lang.dll	GetLocaleText	Ordinal	10004		
+D2Lang.dll	GetStringByIndex	Ordinal	10004		
+D2Lang.dll	ToUnicodeString	Offset	0x1118	?toUnicode@Unicode@@SIPAU1@PAU1@PBDH@Z	Unicode::toUnicode
+D2Lang.dll	Unicode_strcat	Offset	0x10B4		Unicode::strcat
+D2Lang.dll	Unicode_strlen	Offset	0x1055	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
+D2Lang.dll	Unicode_tolower	Offset	0x1014	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
+D2Lang.dll	Unicode_toupper	Offset	0x1154		Unicode::toUpper
 D2Lang.dll	UnicodeChar_Compare	Offset	0x1019	?compare@Unicode@@SIHU1@0@Z	Unicode::compare
 D2Lang.dll	UnicodeChar_Copy	Offset	0x1136	??4Unicode@@QAEAAU0@ABU0@@Z	Unicode::operator=
 D2Lang.dll	UnicodeChar_CreateWithNoArgs	Offset	0x10CD	??_FUnicode@@QAEXXZ	Unicode::`default constructor closure'
@@ -45,11 +50,6 @@ D2Lang.dll	UnicodeString_Compare	Offset	0x1050	?strcmp@Unicode@@SIHPBU1@0@Z	Unic
 D2Lang.dll	UnicodeString_CompareIgnoreCase	Offset	0x100A	?stricmp@Unicode@@SIHPBU1@0@Z	Unicode::stricmp
 D2Lang.dll	UnicodeString_FindChar	Offset	0x101E	?strchr@Unicode@@SIPAU1@PBU1@U1@@Z	Unicode::strchr
 D2Lang.dll	UnicodeString_Format	Offset	0x1046	?sprintf@Unicode@@SAXHPAU1@PBU1@ZZ	Unicode::sprintf
-D2Lang.dll	GetStringByIndex	Ordinal	10004		
-D2Lang.dll	Unicode_strcat	Offset	0x10B4		Unicode::strcat
-D2Lang.dll	Unicode_strlen	Offset	0x1055	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
-D2Lang.dll	Unicode_tolower	Offset	0x1014	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
-D2Lang.dll	Unicode_toupper	Offset	0x1154		Unicode::toUpper
 D2Lang.dll	UnicodeString_NCompareIgnoreCase	Offset	0x1091	?strnicmp@Unicode@@SIHPBU1@0I@Z	Unicode::strnicmp
 D2Lang.dll	UnloadSysMap	Offset	0x104B	?unloadSysMap@Unicode@@SIXXZ	Unicode::unloadSysMap
 D2Win.dll	DrawUnicodeText	Ordinal	10110		
