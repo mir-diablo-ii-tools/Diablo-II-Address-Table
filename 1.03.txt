@@ -1,7 +1,6 @@
 Library	Name	Locator Type	Locator Value	Comments	
 D2Client.dll	DifficultyLevel	Offset	0x12EAC4	nDifficultyLevel	
-D2Client.dll	DrawCenteredText	Offset	0x10E6		
-D2Client.dll	ScreenOpenMode	N/A	N/A		
+D2Client.dll	DrawCenteredUnicodeText	Offset	0x10E6		
 D2Client.dll	GeneralDisplayHeight	Offset	0x1680AC		
 D2Client.dll	GeneralDisplayWidth	Offset	0x1680B0		
 D2Client.dll	GeneralPlayAreaCameraShiftX	Offset	0x134594		
@@ -13,6 +12,7 @@ D2Client.dll	IsGameMenuOpen	Offset	0x143530
 D2Client.dll	IsHelpScreenOpen	Offset	0x143590		
 D2Client.dll	IsNewSkillButtonPressed	Offset	0x13DB30		
 D2Client.dll	IsNewStatsButtonPressed	Offset	0x13DB2C		
+D2Client.dll	ScreenOpenMode	N/A	N/A		
 D2Client.dll	ScreenShiftX	N/A	N/A		
 D2Client.dll	ScreenShiftY	N/A	N/A		
 D2CMP.dll	CloseCelFile	Ordinal	10032		
@@ -35,13 +35,13 @@ D2Lang.dll	Unicode_strcat	Offset	0x10B4		Unicode::strcat
 D2Lang.dll	Unicode_strlen	Offset	0x1055	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
 D2Lang.dll	Unicode_tolower	Offset	0x1014	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
 D2Lang.dll	Unicode_toupper	Offset	0x1154		Unicode::toUpper
-D2Win.dll	DrawText	Ordinal	10110		
+D2Win.dll	DrawUnicodeText	Ordinal	10110		
 D2Win.dll	LoadCelFile	Ordinal	10035		
 D2Win.dll	LoadMPQ	Offset	0x146FA		
 D2Win.dll	MainMenuMousePositionX	Offset	0x72A98		
 D2Win.dll	MainMenuMousePositionY	Offset	0x72A9C		
-D2Win.dll	SetPopUpText	Ordinal	10122		
-D2Win.dll	SetTextFont	Ordinal	10120		
+D2Win.dll	SetDrawUnicodeTextFont	Ordinal	10120		
+D2Win.dll	SetPopUpUnicodeText	Ordinal	10122		
 D2Win.dll	UnloadCelFile	Ordinal	10037		
 D2Win.dll	UnloadMPQ	Offset	0x148A7		
 Fog.dll	AllocClientMemory	Ordinal	10033		
