@@ -40,7 +40,7 @@ D2Win.dll	LoadCelFile	Offset	0xFA9B0
 D2Win.dll	LoadMPQ	Offset	0x117332		
 D2Win.dll	MainMenuMousePositionX	Offset	0x3D55A4		
 D2Win.dll	MainMenuMousePositionY	Offset	0x3D55A8		
-D2Win.dll	SetDrawUnicodeTextFont	Offset	0x102EF0		
+D2Win.dll	SetTextFont	Offset	0x102EF0		
 D2Win.dll	SetPopUpUnicodeText	Offset	0x102280		
 D2Win.dll	UnloadCelFile	Offset	0xFAAE0		
 D2Win.dll	UnloadMPQ	Offset	0x1173AC		

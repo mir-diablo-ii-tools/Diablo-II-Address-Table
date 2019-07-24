@@ -40,7 +40,7 @@ D2Win.dll	LoadCelFile	Ordinal	10039
 D2Win.dll	LoadMPQ	Offset	0x12399		
 D2Win.dll	MainMenuMousePositionX	Offset	0x5E234		
 D2Win.dll	MainMenuMousePositionY	Offset	0x5E238		
-D2Win.dll	SetDrawUnicodeTextFont	Ordinal	10127		
+D2Win.dll	SetTextFont	Ordinal	10127		
 D2Win.dll	SetPopUpUnicodeText	Ordinal	10129		
 D2Win.dll	UnloadCelFile	Ordinal	10041		
 D2Win.dll	UnloadMPQ	Offset	0x12548		
