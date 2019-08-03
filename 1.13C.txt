@@ -15,6 +15,7 @@ D2Client.dll	IsNewStatsButtonPressed	Offset	0x11C308
 D2Client.dll	ScreenOpenMode	Offset	0x11C414		
 D2Client.dll	ScreenShiftX	Offset	0x11B9A0		
 D2Client.dll	ScreenShiftY	Offset	0x11B9A4		
+D2CMP.dll	GetCelFromCelContext	Ordinal	10021		
 D2CMP.dll	CloseCelFile	Ordinal	10065		
 D2DDraw.dll	DisplayHeight	Offset	0x101CC		
 D2DDraw.dll	DisplayWidth	Offset	0x101D4		
@@ -38,6 +39,7 @@ D2Lang.dll	Unicode_strlen	Offset	0xB0B0	?strlen@Unicode@@SIHPBU1@@Z	Unicode::str
 D2Lang.dll	Unicode_tolower	Offset	0x10C0	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
 D2Lang.dll	Unicode_toupper	Offset	0x10A0		Unicode::toUpper
 D2Win.dll	DrawUnicodeText	Ordinal	10150		
+D2Win.dll	HasWindowFocus	Offset	0x1FBA8		
 D2Win.dll	LoadCelFile	Ordinal	10111		
 D2Win.dll	LoadMPQ	Offset	0x7E60		
 D2Win.dll	MainMenuMousePositionX	Offset	0x21488		
