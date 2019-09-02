@@ -19,6 +19,8 @@ D2CMP.dll	GetCelFromCelContext	Ordinal	10038
 D2CMP.dll	CloseCelFile	Ordinal	10106		
 D2DDraw.dll	BitBlockHeight	Offset	0xFDD8		
 D2DDraw.dll	BitBlockWidth	Offset	0xFDC8		
+D2DDraw.dll	CelDisplayLeft	Offset	0xFEE4		
+D2DDraw.dll	CelDisplayRight	Offset	0xFEE8		
 D2DDraw.dll	DisplayHeight	Offset	0xFDCC		
 D2DDraw.dll	DisplayWidth	Offset	0xFDD4		
 D2Direct3D.dll	DisplayHeight	Offset	0x196F4		
