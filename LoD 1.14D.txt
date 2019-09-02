@@ -17,6 +17,8 @@ D2Client.dll	ScreenShiftX	Offset	0x3A2858
 D2Client.dll	ScreenShiftY	Offset	0x3A285C		
 D2CMP.dll	GetCelFromCelContext	Offset	0x201840		
 D2CMP.dll	CloseCelFile	Offset	0x201A50		
+D2DDraw.dll	BitBlockHeight	Offset	0x3C913C		
+D2DDraw.dll	BitBlockWidth	Offset	0x3C9138		
 D2DDraw.dll	DisplayHeight	Offset	0x481254		
 D2DDraw.dll	DisplayWidth	Offset	0x481258		
 D2Direct3D.dll	DisplayHeight	Offset	0x3C913C		
