@@ -41,6 +41,8 @@ D2Lang.dll	Unicode_strlen	Offset	0x14C0	?strlen@Unicode@@SIHPBU1@@Z	Unicode::str
 D2Lang.dll	Unicode_tolower	Offset	0x10E0	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
 D2Lang.dll	Unicode_toupper	Offset	0x10B0		Unicode::toUpper
 D2Win.dll	DrawUnicodeText	Ordinal	10117		
+D2Win.dll	GetUnicodeTextDrawWidth	Ordinal	10121		
+D2Win.dll	GetUnicodeTextNDrawWidth	Ordinal	10122		
 D2Win.dll	LoadCelFile	Ordinal	10039		
 D2Win.dll	LoadMPQ	Offset	0x12399		
 D2Win.dll	MainMenuMousePositionX	Offset	0x5E234		
