@@ -41,6 +41,7 @@ D2Lang.dll	Unicode_strlen	Offset	0x123D50	?strlen@Unicode@@SIHPBU1@@Z	Unicode::s
 D2Lang.dll	Unicode_tolower	Offset	0xADD70	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
 D2Lang.dll	Unicode_toupper	Offset	0x29E40		Unicode::toUpper
 D2Win.dll	DrawUnicodeText	Offset	0xFFB70		
+D2Win.dll	GetPopupUnicodeTextWidthAndHeight	Offset	0xFFD80		
 D2Win.dll	GetUnicodeTextDrawWidth	Offset	0xFF010		
 D2Win.dll	GetUnicodeTextNDrawWidth	Offset	0xFEFD0		
 D2Win.dll	LoadCelFile	Offset	0xF7F80		

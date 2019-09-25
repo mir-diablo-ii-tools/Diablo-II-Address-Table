@@ -57,6 +57,7 @@ D2Lang.dll	UnicodeString_Format	Offset	0x1046	?sprintf@Unicode@@SAXHPAU1@PBU1@ZZ
 D2Lang.dll	UnicodeString_NCompareIgnoreCase	Offset	0x1091	?strnicmp@Unicode@@SIHPBU1@0I@Z	Unicode::strnicmp
 D2Lang.dll	UnloadSysMap	Offset	0x104B	?unloadSysMap@Unicode@@SIXXZ	Unicode::unloadSysMap
 D2Win.dll	DrawUnicodeText	Ordinal	10110		
+D2Win.dll	GetPopupUnicodeTextWidthAndHeight	Ordinal	10124		
 D2Win.dll	GetUnicodeTextDrawWidth	Ordinal	10114		
 D2Win.dll	GetUnicodeTextNDrawWidth	Ordinal	10115		
 D2Win.dll	LoadCelFile	Ordinal	10035		
