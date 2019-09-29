@@ -36,6 +36,7 @@ D2GFX.dll	VideoMode	Offset	0x3BFD38	"1 = GDI, 2 = Software, 3 = DirectDraw, 4 = 
 D2Glide.dll	DisplayHeight	Offset	0x3C01C4		
 D2Glide.dll	DisplayWidth	Offset	0x3C01C0		
 D2Lang.dll	GetStringByIndex	Offset	0x121EE0		
+D2Lang.dll	Unicode_asciiToUnicode	Offset	0x124450		Unicode::win2Unicode
 D2Lang.dll	Unicode_strcat	Offset	0x123C50		Unicode::strcat
 D2Lang.dll	Unicode_strlen	Offset	0x123D50	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
 D2Lang.dll	Unicode_tolower	Offset	0xADD70	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
