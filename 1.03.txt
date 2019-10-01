@@ -41,6 +41,7 @@ D2Lang.dll	Unicode_strcat	Offset	0x10B4		Unicode::strcat
 D2Lang.dll	Unicode_strlen	Offset	0x1055	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
 D2Lang.dll	Unicode_tolower	Offset	0x1014	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
 D2Lang.dll	Unicode_toupper	Offset	0x1154		Unicode::toUpper
+D2Lang.dll	Unicode_unicodeToUtf8	Offset	0x1069	?toUtf@Unicode@@SIPADPADPBU1@H@Z	Unicode::toUtf
 D2Lang.dll	Unicode_utf8ToUnicode	Offset	0x1118	?toUnicode@Unicode@@SIPAU1@PAU1@PBDH@Z	Unicode::toUnicode
 D2Win.dll	DrawUnicodeText	Ordinal	10110		
 D2Win.dll	GetPopupUnicodeTextWidthAndHeight	Ordinal	10124		
