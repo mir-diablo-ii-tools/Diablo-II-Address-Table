@@ -38,6 +38,7 @@ D2Glide.dll	DisplayWidth	Offset	0x1DD44
 D2Lang.dll	GetStringByIndex	Ordinal	10004		
 D2Lang.dll	Unicode_asciiToUnicode	Offset	0x1122		Unicode::win2Unicode
 D2Lang.dll	Unicode_strcat	Offset	0x10B4		Unicode::strcat
+D2Lang.dll	Unicode_strcmp	Offset	0x1050	?strcmp@Unicode@@SIHPBU1@0@Z	Unicode::strcmp
 D2Lang.dll	Unicode_strlen	Offset	0x1055	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
 D2Lang.dll	Unicode_tolower	Offset	0x1014	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
 D2Lang.dll	Unicode_toupper	Offset	0x1154		Unicode::toUpper
@@ -51,7 +52,6 @@ D2Lang.dll	UnicodeChar_IsAlpha	Offset	0x103C	?isAlpha@Unicode@@QBEHXZ	Unicode::i
 D2Lang.dll	UnicodeChar_IsNewLine	Offset	0x1073	?isNewline@Unicode@@QBEHXZ	Unicode::isNewline
 D2Lang.dll	UnicodeChar_IsPipe	Offset	0x1087	?isPipe@Unicode@@QBEHXZ	Unicode::isPipe
 D2Lang.dll	UnicodeChar_IsWhitespace	Offset	0x1032	?isWhitespace@Unicode@@QBEHXZ	Unicode::isWhitespace
-D2Lang.dll	UnicodeString_Compare	Offset	0x1050	?strcmp@Unicode@@SIHPBU1@0@Z	Unicode::strcmp
 D2Lang.dll	UnicodeString_CompareIgnoreCase	Offset	0x100A	?stricmp@Unicode@@SIHPBU1@0@Z	Unicode::stricmp
 D2Lang.dll	UnicodeString_FindChar	Offset	0x101E	?strchr@Unicode@@SIPAU1@PBU1@U1@@Z	Unicode::strchr
 D2Lang.dll	UnicodeString_Format	Offset	0x1046	?sprintf@Unicode@@SAXHPAU1@PBU1@ZZ	Unicode::sprintf
