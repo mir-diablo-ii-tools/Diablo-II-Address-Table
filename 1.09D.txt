@@ -40,6 +40,7 @@ D2Lang.dll	Unicode_asciiToUnicode	Offset	0x1B10		Unicode::win2Unicode
 D2Lang.dll	Unicode_strcat	Offset	0x13A0		Unicode::strcat
 D2Lang.dll	Unicode_strcmp	Offset	0x1210	?strcmp@Unicode@@SIHPBU1@0@Z	Unicode::strcmp
 D2Lang.dll	Unicode_strcpy	Offset	0x1470		Unicode::strcpy
+D2Lang.dll	Unicode_strncat	Offset	0x13D0		Unicode::strncat
 D2Lang.dll	Unicode_strncpy	Offset	0x1420		Unicode::strncpy
 D2Lang.dll	Unicode_strlen	Offset	0x1490	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
 D2Lang.dll	Unicode_tolower	Offset	0x10E0	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
