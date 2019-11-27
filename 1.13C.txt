@@ -16,6 +16,7 @@ D2Client.dll	ScreenOpenMode	Offset	0x11C414
 D2Client.dll	ScreenShiftX	Offset	0x11B9A0		
 D2Client.dll	ScreenShiftY	Offset	0x11B9A4		
 D2Common.dll	GlobalBeltsTxt	Offset	0xA13DC		
+D2Common.dll	GetBeltTypeRecord	Ordinal	10991		
 D2Common.dll	GetBeltSlotPosition	Ordinal	10333		
 D2CMP.dll	GetCelFromCelContext	Ordinal	10021		
 D2CMP.dll	CloseCelFile	Ordinal	10065		
