@@ -15,6 +15,7 @@ D2Client.dll	IsNewStatsButtonPressed	Offset	0x115BBC
 D2Client.dll	ScreenOpenMode	Offset	0x10B9C4		
 D2Client.dll	ScreenShiftX	Offset	0x11A748		
 D2Client.dll	ScreenShiftY	Offset	0x11A74C		
+D2Common.dll	GlobalBeltsTxt	Offset	0xA9604		
 D2CMP.dll	GetCelFromCelContext	Ordinal	10036		
 D2CMP.dll	CloseCelFile	Ordinal	10032		
 D2DDraw.dll	BitBlockHeight	Offset	0x11BBC		
