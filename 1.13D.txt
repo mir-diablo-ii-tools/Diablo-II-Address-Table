@@ -15,9 +15,10 @@ D2Client.dll	IsNewStatsButtonPressed	Offset	0x11D318
 D2Client.dll	ScreenOpenMode	Offset	0x11D070		
 D2Client.dll	ScreenShiftX	Offset	0x11D354		
 D2Client.dll	ScreenShiftY	Offset	0x11D358		
-D2Common.dll	GlobalBeltsTxt	Offset	0xA4BA0		
-D2Common.dll	GetBeltTypeRecord	Ordinal	10370		
+D2Common.dll	GlobalBeltsTxt	Offset	0xA4BA0	sgptBeltInitStats	
+D2Common.dll	GlobalInventoryTxt	Offset	0xA4CB0	sgptInventoryInitStats	
 D2Common.dll	GetBeltSlotPosition	Ordinal	10689		
+D2Common.dll	GetBeltTypeRecord	Ordinal	10370		
 D2CMP.dll	GetCelFromCelContext	Ordinal	10035		
 D2CMP.dll	CloseCelFile	Ordinal	10020		
 D2DDraw.dll	BitBlockHeight	Offset	0x100E8		
