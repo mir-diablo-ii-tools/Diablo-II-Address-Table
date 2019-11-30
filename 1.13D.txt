@@ -20,6 +20,7 @@ D2Common.dll	GlobalInventoryTxt	Offset	0xA4CB0	sgptInventoryInitStats
 D2Common.dll	GlobalInventoryTxtRecordsCount	Offset	0xA4CAC	sgnInventoryInitStats	
 D2Common.dll	GetBeltSlotPosition	Ordinal	10689		
 D2Common.dll	GetBeltTypeRecord	Ordinal	10370		
+D2Common.dll	GetEquipmentSlotLayout	Ordinal	10441		
 D2Common.dll	GetInventoryGridLayout	Ordinal	10964		
 D2Common.dll	GetInventoryPosition	Ordinal	10770		
 D2CMP.dll	GetCelFromCelContext	Ordinal	10035		
