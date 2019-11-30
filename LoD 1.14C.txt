@@ -17,6 +17,7 @@ D2Client.dll	ScreenShiftX	Offset	0x3998E0
 D2Client.dll	ScreenShiftY	Offset	0x3998E4		
 D2Common.dll	GlobalBeltsTxt	Offset	0x564480	sgptBeltInitStats	
 D2Common.dll	GlobalInventoryTxt	Offset	0x56447C	sgptInventoryInitStats	
+D2Common.dll	GlobalInventoryTxtRecordsCount	Offset	0x564478	sgnInventoryInitStats	
 D2Common.dll	GetBeltSlotPosition	Offset	0x262FD0		
 D2Common.dll	GetBeltTypeRecord	Offset	0x262F70		
 D2CMP.dll	GetCelFromCelContext	Offset	0x200620		
