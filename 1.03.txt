@@ -1,6 +1,7 @@
 Library	Name	Locator Type	Locator Value	Comments	
 D2Client.dll	DifficultyLevel	Offset	0x12EAC4	nDifficultyLevel	
 D2Client.dll	DrawCenteredUnicodeText	Offset	0x10E6		
+D2Client.dll	GameType	Offset	0x12EAC8	gnGameType	"0 = SP, 3 = BNet Join, 6 = OpenBNet or TCP/IP Host, 7 = OpenBNet or TCP/IP Join"
 D2Client.dll	GeneralDisplayHeight	Offset	0x1680AC		
 D2Client.dll	GeneralDisplayWidth	Offset	0x1680B0		
 D2Client.dll	GeneralPlayAreaCameraShiftX	Offset	0x134594		
