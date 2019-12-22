@@ -1,4 +1,5 @@
 Library	Name	Locator Type	Locator Value	Comments	
+BNClient.dll	GatewayDomainName	Offset	0x1F1B8		
 D2Client.dll	DifficultyLevel	Offset	0x11BFF4	nDifficultyLevel	
 D2Client.dll	DrawCenteredUnicodeText	Offset	0x6A8C0		
 D2Client.dll	GameType	Offset	0x11BFF8	gnGameType	"0 = SP, 3 = BNet Join, 6 = OpenBNet Host, 7 = OpenBNet Join, 8 = TCP/IP Host, 9 = TCP/IP Join"
