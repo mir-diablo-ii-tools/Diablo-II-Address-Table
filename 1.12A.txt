@@ -72,7 +72,7 @@ D2Win.dll	MainMenuMousePositionY	Offset	0x5C704
 D2Win.dll	SetTextFont	Ordinal	10010		
 D2Win.dll	SetPopUpUnicodeText	Ordinal	10031		
 D2Win.dll	UnloadCelFile	Ordinal	10130		
-D2Win.dll	UnloadMPQ	Offset	0x78D0		
+D2Win.dll	UnloadMpq	Offset	0x78D0		
 Fog.dll	AllocClientMemory	Ordinal	10042		
 Fog.dll	FreeClientMemory	Ordinal	10043		
 Storm.dll	SFileCloseArchive	Ordinal	252		
