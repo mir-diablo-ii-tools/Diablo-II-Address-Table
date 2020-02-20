@@ -1,6 +1,6 @@
 Library	Name	Locator Type	Locator Value	Comments	
 BNClient.dll	GatewayDomainName	Offset	0x18138		
-BNClient.dll	GatewayIPv4Address	Offset	0x18260		
+BNClient.dll	GatewayIpV4Address	Offset	0x18260		
 D2Client.dll	DifficultyLevel	Offset	0xE3024	nDifficultyLevel	
 D2Client.dll	DrawCenteredUnicodeText	Offset	0x21ED0		
 D2Client.dll	GameType	Offset	0xE3028	gnGameType	"0 = SP, 3 = BNet Join, 6 = OpenBNet or TCP/IP Host, 7 = OpenBNet or TCP/IP Join"
