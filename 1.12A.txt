@@ -1,6 +1,6 @@
 Library	Name	Locator Type	Locator Value	Comments	
 BNClient.dll	GatewayDomainName	Offset	0x1F1B8		
-BNClient.dll	GatewayIPv4Address	Offset	0x1F2B8		
+BNClient.dll	GatewayIpV4Address	Offset	0x1F2B8		
 D2Client.dll	DifficultyLevel	Offset	0x11BFF4	nDifficultyLevel	
 D2Client.dll	DrawCenteredUnicodeText	Offset	0x6A8C0		
 D2Client.dll	GameType	Offset	0x11BFF8	gnGameType	"0 = SP, 3 = BNet Join, 6 = OpenBNet Host, 7 = OpenBNet Join, 8 = TCP/IP Host, 9 = TCP/IP Join"
@@ -66,13 +66,13 @@ D2Win.dll	GetPopupUnicodeTextWidthAndHeight	Ordinal	10096
 D2Win.dll	GetUnicodeTextDrawWidth	Ordinal	10132		
 D2Win.dll	GetUnicodeTextNDrawWidth	Ordinal	10041		
 D2Win.dll	LoadCelFile	Ordinal	10186		
-D2Win.dll	LoadMPQ	Offset	0x7E40		
+D2Win.dll	LoadMpq	Offset	0x7E40		
 D2Win.dll	MainMenuMousePositionX	Offset	0x5C700		
 D2Win.dll	MainMenuMousePositionY	Offset	0x5C704		
 D2Win.dll	SetTextFont	Ordinal	10010		
 D2Win.dll	SetPopUpUnicodeText	Ordinal	10031		
 D2Win.dll	UnloadCelFile	Ordinal	10130		
-D2Win.dll	UnloadMPQ	Offset	0x78D0		
+D2Win.dll	UnloadMpq	Offset	0x78D0		
 Fog.dll	AllocClientMemory	Ordinal	10042		
 Fog.dll	FreeClientMemory	Ordinal	10043		
 Storm.dll	SFileCloseArchive	Ordinal	252		
