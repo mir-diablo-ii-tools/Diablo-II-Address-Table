@@ -1,9 +1,11 @@
 Library	Name	Locator Type	Locator Value	Comments	
 BNClient.dll	GatewayDomainName	Offset	0x1F1B8		
 BNClient.dll	GatewayIpV4Address	Offset	0x1F2B8		
+D2CMP.dll	CloseCelFile	Ordinal	10106		
+D2CMP.dll	GetCelFromCelContext	Ordinal	10038		
 D2Client.dll	DifficultyLevel	Offset	0x11BFF4	nDifficultyLevel	
 D2Client.dll	DrawCenteredUnicodeText	Offset	0x6A8C0		
-D2Client.dll	GameType	Offset	0x11BFF8	gnGameType	"0 = SP, 3 = BNet Join, 6 = OpenBNet Host, 7 = OpenBNet Join, 8 = TCP/IP Host, 9 = TCP/IP Join"
+D2Client.dll	GameType	Offset	0x11BFF8	gnGameType	0 = SP, 3 = BNet Join, 6 = OpenBNet Host, 7 = OpenBNet Join, 8 = TCP/IP Host, 9 = TCP/IP Join
 D2Client.dll	GeneralDisplayHeight	Offset	0xDC6E4		
 D2Client.dll	GeneralDisplayWidth	Offset	0xDC6E0		
 D2Client.dll	GeneralPlayAreaCameraShiftX	Offset	0x11C1D4		
@@ -18,16 +20,14 @@ D2Client.dll	IsNewStatsButtonPressed	Offset	0x11C344
 D2Client.dll	ScreenOpenMode	Offset	0x11C1D0		
 D2Client.dll	ScreenShiftX	Offset	0x11BD28		
 D2Client.dll	ScreenShiftY	Offset	0x11BD2C		
-D2Common.dll	GlobalBeltsTxt	Offset	0xA0750	sgptBeltInitStats	
-D2Common.dll	GlobalInventoryTxt	Offset	0xA13F8	sgptInventoryInitStats	
-D2Common.dll	GlobalInventoryTxtRecordsCount	Offset	0xA13F4	sgnInventoryInitStats	
 D2Common.dll	GetGlobalBeltRecord	Ordinal	10225		
 D2Common.dll	GetGlobalBeltSlotPosition	Ordinal	10110		
 D2Common.dll	GetGlobalEquipmentSlotLayout	Ordinal	10030		
 D2Common.dll	GetGlobalInventoryGridLayout	Ordinal	10654		
 D2Common.dll	GetGlobalInventoryPosition	Ordinal	10279		
-D2CMP.dll	GetCelFromCelContext	Ordinal	10038		
-D2CMP.dll	CloseCelFile	Ordinal	10106		
+D2Common.dll	GlobalBeltsTxt	Offset	0xA0750	sgptBeltInitStats	
+D2Common.dll	GlobalInventoryTxt	Offset	0xA13F8	sgptInventoryInitStats	
+D2Common.dll	GlobalInventoryTxtRecordsCount	Offset	0xA13F4	sgnInventoryInitStats	
 D2DDraw.dll	BitBlockHeight	Offset	0xFDD8		
 D2DDraw.dll	BitBlockWidth	Offset	0xFDC8		
 D2DDraw.dll	CelDisplayLeft	Offset	0xFEE4		
@@ -43,8 +43,8 @@ D2GDI.dll	CelDisplayRight	Offset	0xC044
 D2GFX.dll	DrawCelContext	Ordinal	10024		
 D2GFX.dll	DrawRectangle	Ordinal	10062		
 D2GFX.dll	IsWindowedMode	Offset	0x1D450		
-D2GFX.dll	ResolutionMode	Offset	0x1D454	"0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700"	
-D2GFX.dll	VideoMode	Offset	0x1D44C	"1 = GDI, 2 = Software, 3 = DirectDraw, 4 = Glide, 5 = OpenGL, 6 = Direct3D, 7 = Rave"	
+D2GFX.dll	ResolutionMode	Offset	0x1D454	0 = 640x480, 1 = Main Menu, 2 = 800x600, 3 = 1344x700	
+D2GFX.dll	VideoMode	Offset	0x1D44C	1 = GDI, 2 = Software, 3 = DirectDraw, 4 = Glide, 5 = OpenGL, 6 = Direct3D, 7 = Rave	
 D2GFX.dll	WindowHandle	Offset	0x1D458	gtGfxSystem.hWnd	
 D2Glide.dll	DisplayHeight	Offset	0x16E8C		
 D2Glide.dll	DisplayWidth	Offset	0x16DF0		
@@ -55,10 +55,10 @@ D2Lang.dll	Unicode_Utf8ToUnicode	Offset	0x8A00	?toUnicode@Unicode@@SIPAU1@PAU1@P
 D2Lang.dll	Unicode_strcat	Offset	0xA610		Unicode::strcat
 D2Lang.dll	Unicode_strcmp	Offset	0xA830	?strcmp@Unicode@@SIHPBU1@0@Z	Unicode::strcmp
 D2Lang.dll	Unicode_strcpy	Offset	0xA5F0		Unicode::strcpy
+D2Lang.dll	Unicode_strlen	Offset	0xA6E0	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
 D2Lang.dll	Unicode_strncat	Offset	0xA750		Unicode::strncat
 D2Lang.dll	Unicode_strncmp	Offset	0xA7E0		Unicode::strncmp
 D2Lang.dll	Unicode_strncpy	Offset	0xA700		Unicode::strncpy
-D2Lang.dll	Unicode_strlen	Offset	0xA6E0	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
 D2Lang.dll	Unicode_tolower	Offset	0x10C0	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
 D2Lang.dll	Unicode_toupper	Offset	0x10A0		Unicode::toUpper
 D2Win.dll	DrawUnicodeText	Ordinal	10001		
@@ -69,8 +69,8 @@ D2Win.dll	LoadCelFile	Ordinal	10186
 D2Win.dll	LoadMpq	Offset	0x7E40		
 D2Win.dll	MainMenuMousePositionX	Offset	0x5C700		
 D2Win.dll	MainMenuMousePositionY	Offset	0x5C704		
-D2Win.dll	SetTextFont	Ordinal	10010		
 D2Win.dll	SetPopUpUnicodeText	Ordinal	10031		
+D2Win.dll	SetTextFont	Ordinal	10010		
 D2Win.dll	UnloadCelFile	Ordinal	10130		
 D2Win.dll	UnloadMpq	Offset	0x78D0		
 Fog.dll	AllocClientMemory	Ordinal	10042		
