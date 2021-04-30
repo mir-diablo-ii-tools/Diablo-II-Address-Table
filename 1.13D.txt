@@ -26,8 +26,8 @@ D2Common.dll	GetGlobalEquipmentSlotLayout	Ordinal	10441
 D2Common.dll	GetGlobalInventoryGridLayout	Ordinal	10964		
 D2Common.dll	GetGlobalInventoryPosition	Ordinal	10770		
 D2Common.dll	GlobalBeltsTxt	Offset	0xA4BA0	sgptBeltInitStats	
-D2Common.dll	GlobalInventoryTxt	Offset	0xA4CB0	sgptInventoryInitStats	
-D2Common.dll	GlobalInventoryTxtRecordsCount	Offset	0xA4CAC	sgnInventoryInitStats	
+D2Common.dll	GlobalInventoryTxt	Offset	0xA4CAC	sgptInventoryInitStats	
+D2Common.dll	GlobalInventoryTxtRecordsCount	Offset	0xA4CA8	sgnInventoryInitStats	
 D2DDraw.dll	BitBlockHeight	Offset	0x100E8		
 D2DDraw.dll	BitBlockWidth	Offset	0x100D8		
 D2DDraw.dll	CelDisplayLeft	Offset	0xF380		
