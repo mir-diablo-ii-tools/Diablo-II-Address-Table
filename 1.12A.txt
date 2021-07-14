@@ -49,18 +49,6 @@ D2GFX.dll	WindowHandle	Offset	0x1D458	gtGfxSystem.hWnd
 D2Glide.dll	DisplayHeight	Offset	0x16E8C		
 D2Glide.dll	DisplayWidth	Offset	0x16DF0		
 D2Lang.dll	GetStringByIndex	Ordinal	10005		
-D2Lang.dll	Unicode_AsciiToUnicode	Offset	0xAF10		Unicode::win2Unicode
-D2Lang.dll	Unicode_UnicodeToUtf8	Offset	0x8BB0	?toUtf@Unicode@@SIPADPADPBU1@H@Z	Unicode::toUtf
-D2Lang.dll	Unicode_Utf8ToUnicode	Offset	0x8A00	?toUnicode@Unicode@@SIPAU1@PAU1@PBDH@Z	Unicode::toUnicode
-D2Lang.dll	Unicode_strcat	Offset	0xA610		Unicode::strcat
-D2Lang.dll	Unicode_strcmp	Offset	0xA830	?strcmp@Unicode@@SIHPBU1@0@Z	Unicode::strcmp
-D2Lang.dll	Unicode_strcpy	Offset	0xA5F0		Unicode::strcpy
-D2Lang.dll	Unicode_strlen	Offset	0xA6E0	?strlen@Unicode@@SIHPBU1@@Z	Unicode::strlen
-D2Lang.dll	Unicode_strncat	Offset	0xA750		Unicode::strncat
-D2Lang.dll	Unicode_strncmp	Offset	0xA7E0		Unicode::strncmp
-D2Lang.dll	Unicode_strncpy	Offset	0xA700		Unicode::strncpy
-D2Lang.dll	Unicode_tolower	Offset	0x10C0	?toLower@Unicode@@QBE?AU1@XZ	Unicode::toLower
-D2Lang.dll	Unicode_toupper	Offset	0x10A0		Unicode::toUpper
 D2Win.dll	DrawUnicodeText	Ordinal	10001		
 D2Win.dll	GetPopupUnicodeTextWidthAndHeight	Ordinal	10096		
 D2Win.dll	GetUnicodeTextDrawWidth	Ordinal	10132		
